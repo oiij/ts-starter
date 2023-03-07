@@ -1,17 +1,20 @@
 {
   "name": "pkg-name",
-  "version": "0.0.0",
+  "type": "module",
+  "version": "0.1.0-beta.0",
   "packageManager": "pnpm@7.18.0",
   "description": "",
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "author": "Eiog",
   "license": "MIT",
-  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "homepage": "https://github.com/Eiog/tsup-starter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+    "url": "git@github.com:Eiog/tsup-starter.git"
   },
-  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "keywords": [],
+  "bugs": "https://github.com/Eiog/tsup-starter/issues",
+  "keywords": [
+    "tsup-starter"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
@@ -27,25 +30,27 @@
     "dist"
   ],
   "scripts": {
-    "build-fast": "tsup src/index.ts --format cjs,esm",
-    "build": "pnpm build-fast --dts-resolve",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "lint": "eslint .",
-    "prepublishOnly": "pnpm build",
+    "lint:fix": "eslint . --fix",
+    "prepublishOnly": "zr build",
     "release": "bumpp && npm publish",
+    "start": "esno src/index.ts",
     "test": "vitest",
     "update-deps": "taze -w && pnpm i",
-    "typecheck": "tsc --noEmit",
-    "typedoc":"typedoc"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.29.0",
-    "taze": "^0.8.4",
-    "tsup": "6.5.0",
-    "typedoc": "^0.23.25",
-    "typescript": "^4.9.4",
-    "vitest": "^0.24.5"
+    "@antfu/eslint-config": "^0.36.0",
+    "bumpp": "^9.0.0",
+    "eslint": "^8.35.0",
+    "esno": "^0.16.3",
+    "taze": "^0.9.0",
+    "tsup": "6.6.3",
+    "typedoc": "0.24.0-beta.2",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
   },
   "eslintConfig": {
     "extends": "@antfu"
