@@ -34,7 +34,7 @@
     "build": "tsup",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepublishOnly": "zr build",
+    "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.36.0",
+    "@antfu/ni": "^0.20.0",
     "bumpp": "^9.0.0",
     "eslint": "^8.35.0",
     "esno": "^0.16.3",
