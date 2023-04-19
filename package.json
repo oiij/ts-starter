@@ -42,15 +42,15 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.36.0",
-    "@antfu/ni": "^0.20.0",
-    "bumpp": "^9.0.0",
-    "eslint": "^8.35.0",
+    "@antfu/eslint-config": "^0.38.5",
+    "@antfu/ni": "^0.21.3",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.38.0",
     "esno": "^0.16.3",
-    "taze": "^0.9.0",
-    "tsup": "6.6.3",
-    "typescript": "^4.9.5",
-    "vitest": "^0.29.2"
+    "taze": "^0.9.1",
+    "tsup": "6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
   },
   "eslintConfig": {
     "extends": "@antfu"
