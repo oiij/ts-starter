@@ -42,7 +42,7 @@
     "update:deps": "taze -w && pnpm i",
     "type:check": "tsc --noEmit",
     "cz": "czg",
-    "commit":"git pull && git add -A && pnpm cz && git push",
+    "commit": "git pull && git add -A && pnpm cz && git push",
     "preinstall": "npx only-allow pnpm",
     "postinstall": "npx simple-git-hooks"
   },
