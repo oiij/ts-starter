@@ -1,19 +1,18 @@
 {
-  "name": "pkg-name",
+  "name": "typescript-starter",
   "type": "module",
   "version": "0.1.0-beta.0",
-  "packageManager": "pnpm@7.18.0",
   "description": "",
   "author": "Eiog",
   "license": "MIT",
-  "homepage": "https://github.com/Eiog/tsup-starter",
+  "homepage": "https://github.com/Eiog/typescript-starter",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Eiog/tsup-starter.git"
+    "url": "git@github.com:Eiog/typescript-starter.git"
   },
-  "bugs": "https://github.com/Eiog/tsup-starter/issues",
+  "bugs": "https://github.com/Eiog/typescript-starter/issues",
   "keywords": [
-    "tsup-starter"
+    "typescript-starter"
   ],
   "sideEffects": false,
   "exports": {
@@ -49,23 +48,23 @@
     "postinstall": "npx simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.15.0",
+    "@antfu/eslint-config": "^2.21.1",
     "@eiog/ts-config": "^0.0.3",
-    "@types/node": "^20.12.7",
-    "@vitest/ui": "^1.5.0",
-    "bumpp": "^9.4.0",
-    "commitlint": "^19.2.2",
-    "cz-git": "^1.9.1",
-    "czg": "^1.9.1",
-    "eslint": "^9.1.0",
+    "@types/node": "^20.14.2",
+    "@vitest/ui": "^1.6.0",
+    "bumpp": "^9.4.1",
+    "commitlint": "^19.3.0",
+    "cz-git": "^1.9.3",
+    "czg": "^1.9.3",
+    "eslint": "^9.4.0",
     "esno": "^4.7.0",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.6",
     "simple-git-hooks": "^2.11.1",
-    "taze": "^0.13.6",
-    "tsup": "8.0.2",
+    "taze": "^0.13.8",
+    "tsup": "8.1.0",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
-    "vitest": "^1.5.0"
+    "vitest": "^1.6.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged && pnpm type:check"
