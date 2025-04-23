@@ -2,7 +2,7 @@
 
 Features:
 
-- Bundle with [tsup](https://github.com/egoist/tsup)
+- Bundle with [tsdown](https://github.com/rolldown/tsdown)
 - Test with [vitest](https://vitest.dev)
 
 # Usage

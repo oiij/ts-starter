@@ -32,8 +32,8 @@
     "package.json"
   ],
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsc --noEmit && tsup",
+    "dev": "tsdown --watch",
+    "build": "tsc --noEmit && tsdown",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "pnpm build",
@@ -65,7 +65,7 @@
     "lint-staged": "^15.5.1",
     "simple-git-hooks": "^2.12.1",
     "taze": "^19.0.4",
-    "tsup": "^8.4.0",
+    "tsdown": "^0.9.3",
     "typescript": "^5.8.3",
     "vitest": "^3.1.2"
   },
