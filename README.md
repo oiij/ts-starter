@@ -1,12 +1,15 @@
 # ts-starter
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Vitest-4.0-6E9F18?logo=vitest&logoColor=white" alt="Vitest">
-  <img src="https://img.shields.io/badge/pnpm-8+-F69220?logo=pnpm&logoColor=white" alt="pnpm">
-  <img src="https://img.shields.io/badge/ESLint-9.39-4B32C3?logo=eslint&logoColor=white" alt="ESLint">
-  <img src="https://img.shields.io/badge/VitePress-1.6-646CFF?logo=vite&logoColor=white" alt="VitePress">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![tsdown](https://img.shields.io/badge/tsdown-0.20-FF6B6B?logo=esbuild&logoColor=white)](https://tsdown.dev/)
+[![Vitest](https://img.shields.io/badge/Vitest-4.0-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev/)
+[![pnpm](https://img.shields.io/badge/pnpm-8+-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)
+[![ESLint](https://img.shields.io/badge/ESLint-9.39-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/)
+[![VitePress](https://img.shields.io/badge/VitePress-1.6-646CFF?logo=vite&logoColor=white)](https://vitepress.dev/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/oiij/ts-starter/blob/main/LICENSE)
+
 </p>
 
 A modern TypeScript project starter template with built-in development tools and best practices.
