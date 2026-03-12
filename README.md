@@ -119,20 +119,20 @@ pnpm release
 
 ## Scripts
 
-| Script | Description |
-|--------|-------------|
-| `pnpm dev` | Start development mode with watch |
-| `pnpm build` | Build the project |
-| `pnpm start` | Run source code directly |
-| `pnpm test` | Run tests |
-| `pnpm lint` | Lint code |
-| `pnpm lint:fix` | Fix linting issues |
-| `pnpm type:check` | Run TypeScript type checking |
-| `pnpm docs:dev` | Start documentation site |
-| `pnpm docs:build` | Build documentation site |
-| `pnpm commit` | Interactive commit with conventional commits |
-| `pnpm release` | Bump version and publish |
-| `pnpm update:deps` | Update dependencies interactively |
+| Script             | Description                                  |
+| ------------------ | -------------------------------------------- |
+| `pnpm dev`         | Start development mode with watch            |
+| `pnpm build`       | Build the project                            |
+| `pnpm start`       | Run source code directly                     |
+| `pnpm test`        | Run tests                                    |
+| `pnpm lint`        | Lint code                                    |
+| `pnpm lint:fix`    | Fix linting issues                           |
+| `pnpm type:check`  | Run TypeScript type checking                 |
+| `pnpm docs:dev`    | Start documentation site                     |
+| `pnpm docs:build`  | Build documentation site                     |
+| `pnpm commit`      | Interactive commit with conventional commits |
+| `pnpm release`     | Bump version and publish                     |
+| `pnpm update:deps` | Update dependencies interactively            |
 
 ## Project Structure
 
